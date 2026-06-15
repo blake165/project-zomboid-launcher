@@ -10,7 +10,7 @@ browser UI. One pasted command, then everything else happens in the panel.
 Paste into the **Proxmox node shell** (as root):
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/blake165/serverjockey-lxc-creator/main/proxmox-create-serverjockey-lxc.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/blake165/project-zomboid-launcher/main/proxmox-create-serverjockey-lxc.sh | sed 's|serverjockey-lxc-creator|project-zomboid-launcher|')"
 ```
 
 The wizard asks for container settings, then:
